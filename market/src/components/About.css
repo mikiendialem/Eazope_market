@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+.about{
+    width: 100%;
+    height: auto;
+}
+.about .abt{
+    width: 300px;
+    height: 500px;
+    background-image: url("../asstes/abt.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.about .abtt{
+    width: 300px;
+    height: 400px;
+}
+.about .abtt h1{
+    font-size: xx-large;
+    margin-top: 200px;
+    margin-left: 200px;
+    color: crimson;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about .abtt p{
+    line-height: 28px;
+    font-size: large;
+    letter-spacing: 2px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.about .abtt button{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.about .abtt button:hover{
+    background: rgb(0, 179, 255);
+    color: white;
+}
